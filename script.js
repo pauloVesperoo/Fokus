@@ -101,7 +101,6 @@ function iniciarOuPausar(){
     intervaloId = setInterval(contagemRegressiva, 1000)
     iniciarOuPausarBt.textContent = 'Pausar'
     botaoImagem.setAttribute('src', `/imagens/pause.png`)
-
 }
 
 function zerar(){
